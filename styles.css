@@ -47,7 +47,7 @@ body {
   padding-bottom: 2.5em;
 }
 
-.username {
+.profile-card--username {
   font-size: 28px;
   font-weight: 700;
   padding-right: 0.5em;
@@ -85,7 +85,7 @@ body {
   letter-spacing: 3px;
 }
 
-.city {
+.profile-card--city {
   margin-left: 4em;
   margin-top: 1em;
 }
