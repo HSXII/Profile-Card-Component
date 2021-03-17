@@ -27,7 +27,6 @@ body {
 }
 
 .profile-card--top {
-  width: 30em;
   height: 12em;
   background: hsl(229, 23%, 23%);
   border-top-left-radius: 1em;
@@ -88,4 +87,45 @@ body {
 .profile-card--city {
   margin-left: 4em;
   margin-top: 1em;
+}
+
+/* Media Queries */
+
+@media (max-width: 496px) {
+  .profile-card {
+    width: 20em;
+  }
+  .profile-image {
+    left: 7em;
+  }
+  .profile-card__footer--user-headers > div:nth-child(2) {
+    flex-grow: 0.3;
+  }
+}
+
+@media (max-width: 340px) {
+  .profile-card {
+    width: 18em;
+  }
+  .profile-image {
+    left: 6em;
+  }
+}
+
+@media (max-width: 300px) {
+  .profile-card {
+    width: 15em;
+  }
+  .profile-image {
+    left: 4.5em;
+  }
+  .profile-card__footer--user-headers > div:nth-child(2) {
+    flex-grow: 0.3;
+  }
+  .profile-card__footer--user-stats {
+    font-size: 1em;
+  }
+  .profile-card__footer--user-headers {
+    font-size: 0.75em;
+  }
 }
