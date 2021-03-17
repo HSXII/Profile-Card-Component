@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: hsl(185, 75%, 39%);
+  background-color: #d8ebe4;
 }
 
 .profile-image {
